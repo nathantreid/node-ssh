@@ -11,7 +11,7 @@ dependencies:
     - npm install
     - apm rebuild
     - npm run build
-    - cp lib $CIRCLE_ARTIFACTS
+    - cp -r lib $CIRCLE_ARTIFACTS
 
 test:
   override:
